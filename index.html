@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" />
+<title>Entrepreneur's Club</title>
+<meta name="keywords" content="Job matching site" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<? echo base_url();?>/joblist/application/views/pages/css/style.css">
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script> 
+ <!-- pre loading --> 
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  </head>
+<body>
+<!-- Facebook login We need to finish the site first before this can be implemented
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1633481203575831";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+-->
+
+<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+
+		</div>
+
+<div id="container">
+<nav class="navbar navbar-default navbar-fixed-top pattern">
+  <div class="container-fluid">
+    <div class="navbar-header page scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 		
+      </button>
+      <a class="navbar-brand" href="#"><!--<img src="" alt="Entrepreneur Club">--><h3>Entrepreneur's Club</h3></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+            
+			  <li class="active"><a href="main.html"><span class="glyphicon glyphicon-search"></span> Main</a></li>
+	     	  <li><a href="#"><span class="glyphicon glyphicon-flag"></span> メニュー2</a> </li> 
+			  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> メニュー3</a> </li>
+		</ul>
+		<form role="search" class="navbar-form navbar-left">
+                <div class="form-group">
+				    <input action="submit.php" type="text" placeholder="Search" class="form-control">
+                    <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+      </form>
+    <ul class="nav navbar-nav navbar-right">
+		<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>	
+ 
+	  </ul>
+	</div>
+  </div>
+</nav>
+</div>
+
+<div class="parallax">
+<div class="container-fluid slider-background">
+	<div class="container"> 
+  <div class="row-space">
+    <div class="col-sm-8 mr-top" style="background-color:#2175d9; opacity:0.8">.<h1 style="color:#ffffff;">ここではいくつかのテキスト</h1>
+	<form class="form-inline" role="form">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="仕事検索" id="jobsearch">
+  </div>
+   <div class="form-group">
+   <select name = "job category" class="form-control">
+    <option value="category 1">職種1</option>
+    <option value="category 2">職種2</option>
+	<option value="category 2">職種3</option>
+	<option value="category 2">職種4</option>
+	<option value="category 2">職種5</option>
+  </select>
+  </div>
+    <button type="submit" class="btn btn-success">提出します</button>
+</form>
+</div>
+</div>
+ 
+</div>
+</div>
+</div>
+
+	<div class="container-fluid">
+	<div class="container"> 
+	<div class="col-sm-3 border mr-top-40"><span class="glyphicon glyphicon-tag"</span><strong>Categories</strong>
+	
+	<p>Put the categories here</p>
+	<hr />
+	<strong>Pages</strong>
+	<hr />
+	<strong>Sponsor</strong>	
+	</div>
+		<div class="col-sm-8 border mr-left mr-top-40">
+			<div class="col-sm-4 border">Project 1</div>
+			<div class="col-sm-4 border">Project 2</div>
+			<div class="col-sm-4 border">Project 3</div>
+		</div>
+	</div>
+	
+	</div>
+	</div>
+	
+<!--FOOTER AREA -->
+<div class="parallax">
+<div class="container-fluid slider-footer">
+	<div class="container"> 
+	<div class="col-sm-12 footer-text mr-top-40"><h4>ビジネス - Business</h4>
+	<p>ビジネス - Business 1 | ビジネス - Business 2 | ビジネス - Business 3 | ビジネス - Business  4 | ビジネス - Business 5</p> <hr />
+	<h4>場所 - Location</h4>
+	<p>場所 - Location 1 | 場所 - Location 2 | 場所 - Location 3 | 場所 - Location 4 | 場所 - Location 5</p>
+	
+	
+	<div class="col-sm-12 footer-text-2 mr-top-40 footer-border">
+	<div class="col-sm-4 footer-content-1"><p>Footer 1</p> <br /> 
+	<p>Category 1</p> <br /><p>Category 2</p> <br /><p>Category 3</p> <br /><p>Category 4</p> <br /><p>Category 5</p></div>
+	<div class="col-sm-4 footer-content-2"><p>Footer 2</p>  <br />
+	<p>Category 1</p> <br /><p>Category 2</p> <br /><p>Category 3</p> <br /><p>Category 4</p> <br /><p>Category 5</p></div>
+	<div class="col-sm-4 footer-content-3"><p>Footer 3</p> <br />
+	<p>Category 1</p> <br /><p>Category 2</p> <br /><p>Category 3</p> <br /><p>Category 4</p> <br /><p>Category 5</p></div>
+	</div>
+
+		
+</div>
+</div>
+</div>
+	
+
+	<div class="parallax">
+		<div class="container-fluid slider-footer-2">
+			<div class="col-sm-12 mr-top-40">
+			<div class="col-sm-6"><img class="twitter" src="img/twitter-logo.png" width="50px"></div>
+			<div class="col-sm-6"><img class="facebook" src="img/facebook-logo.png" width="48px"></div>	
+		<div class="col-sm-12 mr-top-40">
+			<h4 style="text-align:center">2015 &copy; Entrepreneur's Club</h4>
+		</div>
+			
+			</div>
+		</div>
+	</div>
+	
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8" />
+<title>Entrepreneur's Club</title>
+<meta name="keywords" content="Job matching site" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/scrolling-nav.js"></script> 
+  <link rel="stylesheet" href="css/main-menu.css">
+  </head>
+  <body>
+<div id="container">
+<nav class="navbar navbar-default navbar-fixed-top pattern">
+  <div class="container-fluid">
+    <div class="navbar-header page scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 		
+      </button>
+      <a class="navbar-brand" href="index.html"><!--<img src="" alt="Entrepreneur Club">--><h3>Entrepreneur's Club</h3></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     
+    <ul class="nav navbar-nav navbar-right">
+	
+		<li><a href="#"><img src="img/messages2.png" class="bounce"><div class="menu-text">Messages</div></a></li>
+		<li><a href="#"><img src="img/project2.png" class="bounce"><div class="menu-text">Post New Project</div></a></li>
+		<li><a href="#"><img src="img/profile2.png" class="bounce"><div class="menu-text">Profile</div></a></li>
+		<li><a href="#"><img src="img/favorites2.png" class="bounce"><div class="menu-text">Favorites</div></a></li>
+		<li><a href="#"><img src="img/settings2.png" class="bounce"><div class="menu-text">Settings</div></a></li>
+ 
+	  </ul>
+	  
+	  </div>
+  </div>
+</nav>
+</div> 
+
+<?php echo validation_errors(); ?>
+
+<?php echo form_open('form'); ?>
+
+<h5>Username</h5>
+<input type="text" name="username" value="" size="50" />
+
+<h5>Password</h5>
+<input type="text" name="password" value="" size="50" />
+
+<h5>Password Confirm</h5>
+<input type="text" name="passconf" value="" size="50" />
+
+<h5>Email Address</h5>
+<input type="text" name="email" value="" size="50" />
+
+<div><input type="submit" value="Submit" /></div>
+
+</form>
+</body>
+</html>
+
+ 

@@ -1,0 +1,289 @@
+/*  clear bootstrap header colors */
+
+.pattern {
+background: url('../img/pattern_01.jpg') repeat;
+
+}
+.navbar-default {
+    background-color: white;
+    border-color: white;
+	
+}
+
+.navbar-header{
+    margin-left:10% !important;
+}
+
+#myNavbar {
+margin-top: 20px;
+}
+
+@media (min-width: 979px) {
+	body {
+		margin-top:40px;
+		
+	}
+	
+}
+
+@media (max-width: 978px) {
+	.container {
+	 padding:0;
+	 margin:0;
+	
+	}
+     .navbar-header{
+    margin-bottom:20px !important;
+	margin-left:0 !important;
+    }
+	body {
+     padding:0;
+    }
+  
+  	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+  	  margin-bottom:0;
+  	}
+	
+}
+
+.nav > li.dropdown.open { position: static; }
+.nav > li.dropdown.open .dropdown-menu { display:inline-block; width: 100%; text-align: center; left:0; right:0; }
+.dropdown-menu>li { display: inline-block; }
+
+.dropdown-menu {
+	background-color: #002654;
+	}
+.dropdown-menu>li>a {
+	color: #FFFFFF;
+	}
+	
+html, body {
+  height: 100%;
+}
+body {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+.slider-background {
+
+	background-image: url('../img/background.jpg'); 
+	width: 100%;
+	height: 500px;
+	
+	
+	
+}
+
+
+.mr-top {
+margin-top: 100px;
+padding-bottom: 40px;
+}
+
+hr { 
+margin-top: 15px; 
+margin-bottom: 15px;
+}
+
+.more-job {
+	background-color: #ffffff;
+	width: 50%;
+	height: auto;
+	margin-left: 50%;
+	text-align: center;	
+}
+
+.main-content {
+	margin-top: 50px;
+	border: 1px solid #e6e6e6;
+	
+}
+
+.parallax [class*="slider-"] {
+//  position: relative;
+  height: 80vh;
+//  text-indent: -9999px;
+  background-attachment: fixed;
+ // background-position: top center;
+ // background-size: cover;
+	
+}
+//.parallax [class*="slider-"]:nth-child(2n) {
+//  box-shadow: inset 0 0 1em #111;
+}
+  
+.row-space {
+    margin-right: -15px;
+    margin-left: -15px
+	}
+	
+.mr-top-40 {
+	margin-top: 40px;
+}
+
+
+.mr-top-80 {
+	margin-top: 80px;
+
+}
+.border {
+	border: 1px solid #E7E7E7;	
+	
+}
+
+.mr-left {
+margin-left: 20px;
+
+}
+
+.slider-footer {
+	background-image: url('../img/footer.jpg'); 
+	width: 100%;
+	height: 100vh !important;
+
+}
+.footer-text {
+	color: #ffffff;
+	text-align: center;
+
+}
+.footer-border {
+border: 2px solid #ffffff;
+background-color: #ffffff;
+opacity: 0.8;
+border-radius: 5px;
+
+}
+
+.footer-border-left {
+border-left: 1px solid;
+}
+
+.footer-text-2{
+	color: #000000;
+}
+
+.footer-content-1 {
+text-align: right;
+
+}
+.footer-content-2 {
+text-align: center;
+}
+
+.footer-content-3 {
+text-align: left;
+}
+
+.slider-footer-2 {
+	background-image: url('../img/footer3.jpg'); 
+	width: 100%;
+	height: 40vh !important;
+	
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #e7e7e7;
+	border-radius: 10px !important;
+}
+
+.twitter {
+
+float: right;
+}
+
+.facebook {
+float: left;
+}
+
+.mr-top-160 {
+margin-top: 160px;
+}
+
+/** adding bounce effect **/
+
+.box-menu {
+width: auto;
+height: auto;
+
+
+}
+
+img.bounce {
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  background-color: #4db8d6;
+  box-shadow: 0 0 0 5px #4db8d6;
+  border-radius: 5px;
+  display: block;
+
+
+}
+.menu-text {
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+img.bounce:hover {
+  cursor: pointer;
+  -moz-animation: bounceOut 1s linear;
+  -webkit-animation: bounceOut 1s linear;
+}
+@-moz-keyframes bounceOut {
+  0% {
+    box-shadow: 0 0 0 4px #4db8d6;
+    opacity: 1;
+  }
+  25% {
+    box-shadow: 0 0 0 1px #4db8d6;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 0 7px #4db8d6;
+    opacity: 1;
+  }
+  75% {
+    box-shadow: 0 0 0 4px #4db8d6;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 0 5px #4db8d6;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes bounceOut {
+  0% {
+    box-shadow: 0 0 0 4px #4db8d6;
+    opacity: 1;
+  }
+  25% {
+    box-shadow: 0 0 0 1px #4db8d6;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 0 7px #4db8d6;
+    opacity: 1;
+  }
+  75% {
+    box-shadow: 0 0 0 4px #4db8d6;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 0 5px #4db8d6;
+    opacity: 1;
+  }
+}
+
+.box-menu {
+	height: auto
+	width: auto;
+	border: 1px dashed;
+}

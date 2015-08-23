@@ -1,0 +1,91 @@
+/*  clear bootstrap header colors */
+.navbar-default {
+    background-color: white;
+    border-color: white;
+	
+}
+.navbar-header{
+    margin-left:20% !important;
+}
+
+#myNavbar {
+margin-top: 20px;
+}
+
+@media (min-width: 979px) {
+	body {
+		margin-top:40px;
+		
+	}
+	
+}
+
+@media (max-width: 978px) {
+	.container {
+	 padding:0;
+	 margin:0;
+	
+	}
+     .navbar-header{
+    margin-bottom:20px !important;
+    }
+	body {
+     padding:0;
+    }
+  
+  	.navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+      margin-left: 0;
+      margin-right: 0;
+  	  margin-bottom:0;
+  	}
+	
+}
+
+.nav > li.dropdown.open { position: static; }
+.nav > li.dropdown.open .dropdown-menu { display:inline-block; width: 100%; text-align: center; left:0; right:0; }
+.dropdown-menu>li { display: inline-block; }
+
+.dropdown-menu {
+	background-color: #002654;
+	}
+.dropdown-menu>li>a {
+	color: #FFFFFF;
+	}
+	
+html, body {
+  height: 100%;
+}
+body {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+.slider-background {
+background-color: #e6e6e6;
+}
+
+.mr-top {
+margin-top: 40px;
+}
+
+hr { 
+margin-top: 15px; 
+margin-bottom: 15px;
+}
+
+.more-job {
+	background-color: #ffffff;
+	width: 50%;
+	height: auto;
+	margin-left: 50%;
+	text-align: center;	
+}
+
+.main-content {
+	margin-top: 50px;
+	border: 1px solid #e6e6e6;
+	
+}
+
+
+
